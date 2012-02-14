@@ -30,5 +30,5 @@ set wildmode=list:full
 set nobackup
 set noswapfile
 
-"" show statusline(filename)
+" show statusline(filename)
 set laststatus=2
