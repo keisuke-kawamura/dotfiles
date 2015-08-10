@@ -13,7 +13,7 @@ set listchars=tab:>-,trail:-,eol:\
 set expandtab
 set tabstop=4
 set shiftwidth=4
-set softtabstop=4
+set softtabstop=2
 
 " search
 set wrapscan
@@ -32,3 +32,13 @@ set noswapfile
 
 " show statusline(filename)
 set laststatus=2
+
+" ===========================
+" Neobungle
+" ===========================
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+
+" Required
+call neobundle#begin(expand('~/.vim/bundle/'))
+call neobundle#end()
+
