@@ -30,6 +30,9 @@ set wildmode=list:full
 set nobackup
 set noswapfile
 
+set mouse=a
+set ttymouse=xterm2
+
 " show statusline(filename)
 set laststatus=2
 
