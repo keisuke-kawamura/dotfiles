@@ -37,7 +37,7 @@ set ttymouse=xterm2
 set laststatus=2
 
 " ===========================
-" Neobungle
+" NeoBundle
 " ===========================
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 
